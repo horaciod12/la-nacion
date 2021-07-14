@@ -1,0 +1,392 @@
+.content {
+  /* Content */
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 736px;
+  height: 613px;
+  left: 0px;
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+
+.focalIzquierdo {
+  /* Focal izquierdo */
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 736px;
+  height: 580px;
+  left: calc(50% - 736px / 2);
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 32px 0px;
+}
+
+.cardInverted {
+  /* Card Inverted
+
+Carta Regular invertida en tamaño XL.
+*/
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 470px;
+  height: 553.33px;
+  left: calc(50% - 470px / 2 - 133px);
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 16px;
+}
+
+.cardBody {
+  /* Card body */
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 470px;
+  height: 224px;
+  left: 0px;
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+
+.tag1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: static;
+  width: 470px;
+  height: 16px;
+  left: 0px;
+  top: 208px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.marquee {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 115px;
+  height: 16px;
+  left: 0px;
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+  margin-bottom: 20px;
+}
+
+.title {
+  position: static;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 46.43%;
+
+  /* Global/XL - Bold */
+
+  font-family: SuecaSlab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  /* or 125% */
+
+  letter-spacing: -0.4px;
+
+  /* light/neutral/900 */
+
+  color: #1c1c1f;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.subhead {
+  position: static;
+  left: 0%;
+  right: 0%;
+  top: 57.14%;
+  bottom: 10.71%;
+
+  /* Arial/2XS - Regular */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  /* light/neutral/700 */
+
+  color: #333333;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.marquesina {
+  position: static;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  /* Arial/4XS - Bold */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  /* light/neutral/800 */
+
+  color: #272727;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 10px 0px;
+}
+
+.imgCont {
+  /* Image / 3:2 Apaisada Default
+
+Imagen 3:2 Apaisada.
+*/
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 470px;
+  height: 313.33px;
+  left: 0px;
+  top: 240px;
+
+  /* light/blue/200 */
+
+  background: #bee4ff;
+  /* light/neutral/400 */
+
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+
+.focal {
+  /* Focal izquierdo */
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+
+  position: static;
+  height: 613px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 32px 0px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+
+  position: static;
+  width: 234px;
+  height: 580px;
+  left: calc(50% - 234px / 2 + 251px);
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0px 16px;
+}
+
+.cardBodyChild {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px 0px;
+
+  position: static;
+  width: 234px;
+  height: 118px;
+  left: 0px;
+  top: 156px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.imgBodyChild {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 234px;
+  height: 156px;
+  left: 0px;
+  top: 0px;
+
+  /* light/blue/200 */
+
+  background: #bee4ff;
+  /* light/neutral/400 */
+
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.titleChild {
+  position: static;
+  left: 0%;
+  right: 0%;
+  top: 6.78%;
+  bottom: 27.12%;
+
+  /* Global/XS - Medium */
+
+  font-family: SuecaSlab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
+
+  letter-spacing: -0.2px;
+
+  /* light/blue/500 */
+
+  color: #0074c4;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
