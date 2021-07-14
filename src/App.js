@@ -1,9 +1,6 @@
 import Container from "./components/Container/Container";
 import ModuloContainer from "./components/ModuloContainer/ModuloContainer";
 
-// import img from "./img/img.jpg";
-// import imgAutor from "./img/3037063.webp";
-
 const dummyData = [
   {
     id: "1",
