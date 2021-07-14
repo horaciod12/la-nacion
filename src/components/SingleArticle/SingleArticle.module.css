@@ -1,28 +1,260 @@
-.lead {
-  color: #0074c4;
-  padding-right: 0.375rem;
-  font-style: normal;
+.cardRegular {
+  /* Card / 1. Regular / 1. SM
+
+Carta Regular en tamaño SM.
+*/
+
+/* Auto Layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 234.67px;
+height: 318.44px;
+left: calc(50% - 234.67px/2 - 250.67px);
+top: 0px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 16px;
 }
 
-.article {
-  padding: 15px;
-  border: 1px solid;
-  margin: 10px;
+.card {
+  /* _card */
+
+
+/* Auto Layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 0px
+}
+.cardBody {
+  /* Card / Body / 1. Content
+
+Cuerpo de la mayoria de las cartas.
+
+Para que sea responsive en instancias donde esta dentro de un autolayout horizontal, es necesario cambiar el Space Between del Resizer X dentro de Content / Body Content.
+*/
+
+/* Auto Layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 8px 0px 0px;
+
+position: static;
+width: 234.67px;
+height: 162px;
+left: 0px;
+top: 156.44px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 0px 0px;
 }
 
-.imgA {
-  width: 100%;
+.cardTitle {
+  /* #titulo */
+
+
+position: static;
+left: 0%;
+right: 0%;
+top: 4.94%;
+bottom: 14.81%;
+
+/* Global/XS - Medium */
+
+font-family: SuecaSlab;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+letter-spacing: -0.2px;
+
+/* light/blue/500 */
+
+color: #0074C4;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 0px;
 }
 
-.containerImgAutor {
-  border: 1px solid;
-  width: 63px;
-  border-radius: 50%;
-  padding-left: 11px;
-  height: 70px;
+.cardMarquesina {
+  /* Marquesina */
+
+
+/* Auto Layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: static;
+width: 234.67px;
+height: 16px;
+left: 0px;
+top: 146px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 0px;
+}
+.cardMarquesina1 {
+  /* #marquesinaUno */
+
+
+/* Auto Layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 90px;
+height: 16px;
+left: 0px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px
+}
+.marquesina1 {
+  /* Marquesina 1 */
+
+
+position: static;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Arial/4XS - Bold */
+
+font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
 }
 
-.imgAutor {
-  width: 56px;
-  height: 56px;
+.cardImg {
+  /* Image / 3:2 Apaisada Default
+
+Imagen 3:2 Apaisada.
+*/
+
+/* Auto Layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 234.67px;
+height: 156.44px;
+left: 0px;
+top: 0px;
+
+/* light/blue/200 */
+
+background: #BEE4FF;
+/* light/neutral/400 */
+
+border: 1px solid #CCCCCC;
+box-sizing: border-box;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 0px 0px;
+}
+
+.bajada {
+  /* #bajada */
+
+
+position: static;
+left: 0%;
+right: 0%;
+top: 45.71%;
+bottom: 11.43%;
+
+/* Arial/2XS - Regular */
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+/* light/neutral/700 */
+
+color: #333333;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px;
 }
