@@ -1,0 +1,28 @@
+.lead {
+  color: #0074c4;
+  padding-right: 0.375rem;
+  font-style: normal;
+}
+
+.article {
+  padding: 15px;
+  border: 1px solid;
+  margin: 10px;
+}
+
+.imgA {
+  width: 100%;
+}
+
+.containerImgAutor {
+  border: 1px solid;
+  width: 63px;
+  border-radius: 50%;
+  padding-left: 11px;
+  height: 70px;
+}
+
+.imgAutor {
+  width: 56px;
+  height: 56px;
+}
