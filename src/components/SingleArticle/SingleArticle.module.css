@@ -4,53 +4,50 @@
 Carta Regular en tamaño SM.
 */
 
-/* Auto Layout */
+  /* Auto Layout */
 
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
 
-position: static;
-width: 234.67px;
-height: 318.44px;
-left: calc(50% - 234.67px/2 - 250.67px);
-top: 0px;
+  position: static;
+  width: 234.67px;
+  height: 318.44px;
+  left: calc(50% - 234.67px / 2 - 250.67px);
+  top: 0px;
 
+  /* Inside Auto Layout */
 
-/* Inside Auto Layout */
-
-flex: none;
-order: 0;
-flex-grow: 1;
-margin: 0px 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 16px;
 }
 
 .card {
   /* _card */
 
+  /* Auto Layout */
 
-/* Auto Layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
 
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
+  position: static;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
 
-position: static;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
+  /* Inside Auto Layout */
 
-
-/* Inside Auto Layout */
-
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-margin: 0px
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 0px;
 }
 .cardBody {
   /* Card / Body / 1. Content
@@ -60,133 +57,125 @@ Cuerpo de la mayoria de las cartas.
 Para que sea responsive en instancias donde esta dentro de un autolayout horizontal, es necesario cambiar el Space Between del Resizer X dentro de Content / Body Content.
 */
 
-/* Auto Layout */
+  /* Auto Layout */
 
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 8px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px 0px 0px;
 
-position: static;
-width: 234.67px;
-height: 162px;
-left: 0px;
-top: 156.44px;
+  position: static;
+  width: 234.67px;
+  height: 162px;
+  left: 0px;
+  top: 156.44px;
 
+  /* Inside Auto Layout */
 
-/* Inside Auto Layout */
-
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
-margin: 0px 0px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 0px 0px;
 }
 
 .cardTitle {
   /* #titulo */
 
+  position: static;
+  left: 0%;
+  right: 0%;
+  top: 4.94%;
+  bottom: 14.81%;
 
-position: static;
-left: 0%;
-right: 0%;
-top: 4.94%;
-bottom: 14.81%;
+  /* Global/XS - Medium */
 
-/* Global/XS - Medium */
+  font-family: SuecaSlab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
 
-font-family: SuecaSlab;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 26px;
-/* or 144% */
+  letter-spacing: -0.2px;
 
-letter-spacing: -0.2px;
+  /* light/blue/500 */
 
-/* light/blue/500 */
+  color: #0074c4;
 
-color: #0074C4;
+  /* Inside Auto Layout */
 
-
-/* Inside Auto Layout */
-
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-margin: 8px 0px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
 }
 
 .cardMarquesina {
   /* Marquesina */
 
+  /* Auto Layout */
 
-/* Auto Layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
 
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
+  position: static;
+  width: 234.67px;
+  height: 16px;
+  left: 0px;
+  top: 146px;
 
-position: static;
-width: 234.67px;
-height: 16px;
-left: 0px;
-top: 146px;
+  /* Inside Auto Layout */
 
-
-/* Inside Auto Layout */
-
-flex: none;
-order: 2;
-align-self: stretch;
-flex-grow: 0;
-margin: 8px 0px;
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
 }
 .cardMarquesina1 {
   /* #marquesinaUno */
 
+  /* Auto Layout */
 
-/* Auto Layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
 
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
+  position: static;
+  width: 90px;
+  height: 16px;
+  left: 0px;
+  top: 0px;
 
-position: static;
-width: 90px;
-height: 16px;
-left: 0px;
-top: 0px;
+  /* Inside Auto Layout */
 
-
-/* Inside Auto Layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 0px
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
 }
 .marquesina1 {
   /* Marquesina 1 */
 
+  position: static;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
 
-position: static;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
+  /* Arial/4XS - Bold */
 
-/* Arial/4XS - Bold */
-
-font-family: Arial;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 16px;
-/* identical to box height, or 114% */
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
 }
 
 .cardImg {
@@ -195,66 +184,307 @@ line-height: 16px;
 Imagen 3:2 Apaisada.
 */
 
-/* Auto Layout */
+  /* Auto Layout */
 
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
 
-position: static;
-width: 234.67px;
-height: 156.44px;
-left: 0px;
-top: 0px;
+  position: static;
+  width: 234.67px;
+  height: 156.44px;
+  left: 0px;
+  top: 0px;
 
-/* light/blue/200 */
+  /* light/blue/200 */
 
-background: #BEE4FF;
-/* light/neutral/400 */
+  background: #bee4ff;
+  /* light/neutral/400 */
 
-border: 1px solid #CCCCCC;
-box-sizing: border-box;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
 
-/* Inside Auto Layout */
+  /* Inside Auto Layout */
 
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-margin: 0px 0px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 0px 0px;
 }
 
 .bajada {
   /* #bajada */
 
+  position: static;
+  left: 0%;
+  right: 0%;
+  top: 45.71%;
+  bottom: 11.43%;
 
-position: static;
-left: 0%;
-right: 0%;
-top: 45.71%;
-bottom: 11.43%;
+  /* Arial/2XS - Regular */
 
-/* Arial/2XS - Regular */
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
 
-font-family: Arial;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 24px;
-/* or 150% */
+  /* light/neutral/700 */
 
+  color: #333333;
 
-/* light/neutral/700 */
+  /* Inside Auto Layout */
 
-color: #333333;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
 
+.cardAutor {
+  /* Card Author
 
-/* Inside Auto Layout */
+Carta Autor tamaño MD. La profesión es opcional.
+*/
 
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
-margin: 16px 0px;
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+
+  position: static;
+  width: 234.67px;
+  height: 318.44px;
+  left: calc(50% - 234.67px / 2 + 250.67px);
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 1;
+  margin: 0px 16p;
+}
+
+.linea {
+  /* Linea */
+
+  position: static;
+  width: 80px;
+  height: 0px;
+  left: 77.33px;
+  top: 318.44px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.separadorCita {
+  /* separadorCita */
+
+  position: absolute;
+  width: 80px;
+  height: 1px;
+  left: calc(50% - 80px / 2);
+  bottom: 0px;
+
+  /* light/neutral/600 */
+
+  background: #5a5a5a;
+}
+
+.cuerpo {
+  /* Cuerpo */
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+
+  position: static;
+  height: 318.44px;
+  left: 0%;
+  right: 0%;
+  top: 0px;
+
+  /* light/neutral/400 */
+
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+  margin: 0px 30px;
+}
+
+.image {
+  /* Image + Autor */
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+
+  position: static;
+  width: 128px;
+  height: 112px;
+  left: 53.33px;
+  bottom: 16px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.autor {
+  /* #author
+
+Nombre de autor
+*/
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 128px;
+  height: 24px;
+  left: calc(50% - 128px / 2);
+  top: calc(50% - 24px / 2 + 44px);
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.insideAutor {
+  /* #autor */
+
+  position: static;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  /* Arial/2XS - Bold */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* light/neutral/800 */
+
+  color: #272727;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.imgCircular {
+  /* Image / 1:1/Circular
+
+Imagen circular 1:1
+*/
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  position: static;
+  width: 80px;
+  height: 80px;
+  left: 24px;
+  top: 0px;
+
+  /* light/neutral/400 */
+
+  background: #cccccc;
+  /* neutral/white */
+
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 200px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0;
+}
+
+.title {
+  /* #titulo */
+
+  position: static;
+  left: 6.82%;
+  right: 6.82%;
+  top: 5.02%;
+  bottom: 42.22%;
+
+  /* Global/M - Medium */
+
+  font-family: SuecaSlab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+
+  text-align: center;
+  letter-spacing: -0.2px;
+
+  /* light/blue/500 */
+
+  color: #0074c4;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0p;
 }

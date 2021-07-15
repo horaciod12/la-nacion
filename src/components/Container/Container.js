@@ -21,12 +21,22 @@ const Container = (props) => {
       <div className={classes.containerClass}>
         {props.items.slice(3, 6).map((item) => (
           <SingleArticle
-          key={item.id}
-          type={item.type}
-          img={item.img}
-          title={item.title}
-          marquesina={item.marquesina}
-          bajada={item.bajada}
+            key={item.id}
+            type={item.type}
+            img={item.img}
+            title={item.title}
+            marquesina={item.marquesina}
+            bajada={item.bajada}
+          />
+        ))}
+      </div>
+      <div className={classes.containerClass}>
+        {props.items.slice(6, 9).map((item) => (
+          <SingleArticle
+            key={item.id}
+            type={item.type}
+            title={item.title}
+            insideAutor={item.insideAutor}
           />
         ))}
       </div>

@@ -52,6 +52,27 @@ const dummyData = [
       "Volanta. Esto es un titulo de la novedad con unas cuantas lineas que ocupar, esto es un titulo de la novedad",
     marquesina: "Marquesina 1",
   },
+  {
+    id: "7",
+    type: "3",
+    title:
+      "Volanta. Cuando se dieron cuenta, los dos hermanos estaban preparándose para alunizar.",
+    insideAutor: "Author full name",
+  },
+  {
+    id: "8",
+    type: "3",
+    title:
+      "Volanta. Cuando se dieron cuenta, los dos hermanos estaban preparándose para alunizar.",
+    insideAutor: "Author full name",
+  },
+  {
+    id: "9",
+    type: "3",
+    title:
+      "Volanta. Cuando se dieron cuenta, los dos hermanos estaban preparándose para alunizar.",
+    insideAutor: "Author full name",
+  },
 ];
 
 const dummyModuleContainer = {
